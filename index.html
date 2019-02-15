@@ -20,7 +20,8 @@ body {
   line-height: 25px;
   font-weight: bold;
   background-image: url("https://thumbor.forbes.com/thumbor/1280x868/https%3A%2F%2Fblogs-images.forbes.com%2Finsertcoin%2Ffiles%2F2018%2F09%2Fblackout-cod1.png");
-   text-align:center;
+   text-align:right;
+ float: center;
   background-repeat: no-repeat;
  background-size:cover;
     background-color: light-grey;
@@ -124,21 +125,31 @@ document.body.innerHTML += "<br />" + randomItem;
   
   
 var Barrels = [
-"uppressor", "Long barrel", "Barrel choke"
+"Barrels: Suppressor", 
+"Barrels: Long barrel", 
+"Barrels: Barrel choke"
 ];
 var randomItem = Barrels [Math.floor(Math.random()*Barrels.length)];
 document.body.innerHTML += "<br />" + randomItem;
   
   
 var Magazines = [
-"Fast mags", "High calliber", "FMJ", "Extended Mags", "Hybrid mags"
-, "Rapid fire", "Sight Loader"
+"Magazines: Fast mags", 
+"Magazines: High calliber", 
+"Magazines: FMJ", 
+"Magazines: Extended Mags", 
+"Magazines: Hybrid mags",
+"Magazines: Rapid fire", 
+"Magazines: Sight Loader"
 ];
 var randomItem = Magazines [Math.floor(Math.random()*Magazines.length)];
 document.body.innerHTML += "<br />" + randomItem;
   
 var Body = [
-"Laser Sight", "Grip", "Steady grip", "Stabilizer"
+"Body: Laser Sight", 
+"Body: Grip", 
+"Body: Steady grip", 
+"Body:Stabilizer"
 ];
 var randomItem = Body [Math.floor(Math.random()*Body.length)];
 document.body.innerHTML += "<br />" + randomItem;
